@@ -1,0 +1,26 @@
+{
+	"schemaVersion": 1,
+	"id": "torch",
+	"version": "1.0.0",
+	"name": "Torch",
+	"description": "Gives you permanent night vision, immunity to darkness, no pumpkin overlay and no bad vision in lava. It also removes all the fog.",
+	"authors": [
+		"MikaDev"
+	],
+	"license": "ARR",
+	"icon": "assets/torch/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.mikadev.torch.Torch"
+		]
+	},
+	"mixins": [
+		"torch.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.20.1",
+		"java": ">=17"
+	}
+}

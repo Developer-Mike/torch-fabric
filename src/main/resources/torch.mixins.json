@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "com.mikadev.torch.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+        "InGameHudAccessor",
+        "LightmapRenderMixin",
+        "BackgroundRendererMixin",
+        "InGameHudRendererMixin",
+        "OverlayRendererMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
